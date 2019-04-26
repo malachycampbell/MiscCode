@@ -1,7 +1,7 @@
 manhattan.Beta <- function(dataframe, colors = c("gray10", "gray50"), ymax = "max", xaxis.cex = 1, yaxis.cex = 1, limitchromosomes = 1:23, suggestiveline = NULL, genomewideline = NULL, annotate=NULL, Title, ...) {
   
   d=dataframe
-  ymax=max(d$Beta)
+  ymax=max(d$Beta)*1.1
   ymin=min(d$Beta)
   
   #throws error if you don't have columns named CHR, BP, and P in your data frame.
@@ -17,7 +17,7 @@ manhattan.Beta <- function(dataframe, colors = c("gray10", "gray50"), ymax = "ma
   colors <- rep(colors,max(d$CHR))[1:max(d$CHR)]
   
   # sets the maximum value on the y axis
-  if (ymax == "max") ymax<-ceiling(max(d$Beta))
+  #if (ymax == "max") ymax<-ceiling(max(d$Beta))
   
   # creates continuous position markers for x axis for entire chromosome. also creates tick points.
   d$pos = NA
