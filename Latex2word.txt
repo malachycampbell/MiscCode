@@ -1,0 +1,5 @@
+#Because I can never remember how I did this.
+
+pandoc main.tex --bibliography=refs.bib -o main.docx
+
+pandoc mydoc.tex --bibliography=myref.bib --reference-docx=IEEE_template.doc -o mydoc.docx
