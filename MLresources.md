@@ -9,3 +9,4 @@ A place to organize useful links and other public learning materials. I do not o
   
  ## Bayesian neural networks
  * [Bayesian learning for neural networks, Neal (1995)](http://www.db.toronto.edu/~radford/ftp/thesis.pdf)
+ * [Bayesian ML notebooks](https://github.com/krasserm/bayesian-machine-learning)
