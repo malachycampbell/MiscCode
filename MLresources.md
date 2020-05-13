@@ -10,4 +10,4 @@ A place to organize useful links and other public learning materials. I do not o
  ## Bayesian neural networks
  * [Bayesian learning for neural networks, Neal (1995)](http://www.db.toronto.edu/~radford/ftp/thesis.pdf)
  * [Bayesian ML notebooks](https://github.com/krasserm/bayesian-machine-learning)
-    + [Bayesian NN and VI](https://nbviewer.jupyter.org/github/krasserm/bayesian-machine-learning/blob/master/bayesian_neural_networks.ipynb) (very good)
+    + [Bayesian NN and VI](https://nbviewer.jupyter.org/github/krasserm/bayesian-machine-learning/blob/master/bayesian_neural_networks.ipynb) (very good) - Description and implimentation of the 'Bayes by Backprop' approach by [Blundell et al (2015)](https://arxiv.org/pdf/1505.05424.pdf)
